@@ -1,0 +1,114 @@
+.main_bg {
+    background: url("../images/bg_signin.jpg");
+}
+
+.main_bg .login_form {
+    width: 567px;
+    height: 510px;
+    margin: 100px auto;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+}
+
+.main_bg .login_form .login_title {
+    text-align: center;
+    padding: 50px 0 20px;
+}
+
+.main_bg .login_form .login_title a {
+    color: #fff;
+    font-size: 22px;
+    padding: 10px 20px;
+    margin: 0 20px;
+}
+
+.main_bg .login_form .login_title .login_title_active {
+    color: #7F4A88;
+    border-bottom: 3px solid #7F4A88;
+}
+
+.main_bg .login_form .login_input {
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    font-size: 0;
+}
+
+.main_bg .login_form .login_input input {
+    width: 410px;
+    height: 42px;
+    text-indent: 10px;
+    border-radius: 5px;
+    border: 1px solid #7F4A88;
+    background: transparent;
+    color: #fff;
+}
+
+.main_bg .login_form .login_input .txtCode {
+    width: 289px;
+}
+
+.main_bg .login_form .login_input .btn {
+    background: #7F4A88;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.main_bg .login_form .login_find{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.main_bg .login_form .login_find > span {
+    display: inline-block;
+    width: 410px;
+    text-align: right;
+}
+
+.main_bg .login_form .login_find span a {
+    color: #fff;
+    font-size: 13px;
+}
+
+.main_bg .login_form .login_input .btnCode {
+    width: 103px;
+    height: 42px;
+    border: 1px solid #7F4A88;
+    box-sizing: content-box;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.main_bg .login_form .login_input .btnRegister {
+    width: 410px;
+    height: 42px;
+    cursor: pointer;
+}
+
+.main_bg .login_form .login_input .btnConfirm{
+    width: 410px;
+    height: 42px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.35);
+}
+.main_bg .login_form .login_input .to_login {
+    color: #fff;
+    font-size: 13px;
+}
+.validate {
+    font-size: 12px;
+    color: #f00;
+    position: absolute;
+    top: 67px;
+    left: 89px;
+}
+footer {
+    border-top: 1px solid #fff;
+}
+ footer a{
+    color: #fff;
+}

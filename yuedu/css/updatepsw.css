@@ -1,0 +1,150 @@
+.header_bg {
+    width: 100%;
+    height: 60px;
+    background: rgba(127, 74, 136,0.8);
+  }
+  
+.content_top {
+    width: 671px;
+    height: 60px;
+    margin: 40px auto;
+    line-height: 60px;
+    font-size: 16px;
+    color: #222629;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #7F4A88;
+}
+
+.content {
+    width: 567px;
+    height: 455px;
+    background: #FFFFFF;
+    border: 1px solid #F2EEF3;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 0 6px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    margin: 40px auto;
+}
+
+.content_font {
+    width: 40%;
+    height: 40px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 22px;
+    color: #7F4A88;
+    letter-spacing: 0;
+}
+
+.content_one {
+    width: 80%;
+    height: 62px;
+    margin: auto;
+}
+
+.content_one>input {
+    width: 100%;
+    height: 42px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 0px 10px;
+    color: #222629;
+    box-sizing: border-box;
+}
+
+.content_one>span,
+.content_two>span {
+    color: #f00;
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 10px;
+    line-height: 20px;
+}
+
+.content_two {
+    width: 80%;
+    height: 62px;
+    margin: auto;
+}
+
+.content_two>input[type=text] {
+    width: 62%;
+    height: 42px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-right: 31px;
+    box-sizing: border-box;
+    color: #222629;
+    padding: 0 10px;
+}
+
+.content_two>input[type=button] {
+    display: inline-block;
+    width: 30%;
+    height: 42px;
+    background: #7F4A88;
+    border: 1px solid #7F4A88;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+input::-webkit-input-placeholder {
+    opacity: 0.8;
+    font-size: 14px;
+    color: #222629;
+    letter-spacing: 0;
+}
+
+.content_three {
+    width: 80%;
+    height: 42px;
+    margin: 20px auto;
+}
+
+.content_three>button {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    background: #7F4A88;
+    color: #fff;
+    border-radius: 5px;
+    opacity: 0.7;
+    background: #222629;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.content_four {
+    width: 80%;
+    height: 42px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.content_four>a {
+    color: #fff;
+}
+
+.bottom {
+    width: 100%;
+    height: 1px;
+    background: #ffffff;
+    bottom: 43px;
+}
+
+.bottom_content {
+    width: 100%;
+    height: 41px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 29px;
+    color: #fff;
+}
+
+.login {
+    display: none;
+}

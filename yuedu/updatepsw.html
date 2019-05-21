@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>修改密码</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/common.css" type="text/css" />
+    <link rel="stylesheet" href="./css/updatepsw.css" type="text/css" />
+</head>
+
+<body>
+    <div id="app">
+        <!-- 头部开始 -->
+        <header>
+            <div class="header_bg">
+                <a href="./article.html" class="logo_link">
+					<div class="logo_bg"></div>
+					<span>阅读项目</span>
+				</a>
+
+				<div class="nologin" style="display: none">
+					<a href="./login.html">登陆</a>
+					<a href="./register.html">注册</a>
+					<a href=""><span class="spa"></span>写文章</a>
+				</div>
+
+				<div class="onlogin">
+                        <img src="" class="myheader" id="myheader" />					
+					<a href='./message.html' id="myname" title="个人中心">吕璐</a>
+					<span href="" class="arrow">
+						<img src="./images/icon_arrow_down.png" class="arrow_img">
+						<ul class="nav">
+                            <a href="./message.html">
+								<li>
+                                    <span></span>
+									个人中心
+								</li>
+							</a>
+							<a href="./user.html">
+								<li>
+                                    <span></span>
+									账户设置
+								</li>
+							</a>
+							<a id="loginOut">
+                                <li>
+                                    <span></span>
+									退出登陆
+								</li>
+							</a>
+							<div class="trigger"></div>
+						</ul>
+                    </span>
+					<a href="./write_article.html" class="write"><span class="spa"></span>写文章</a>
+                </div>
+			</div>
+		</header>
+        <!-- 头部结束 -->
+        <!-- 主要 -->
+        <div class="content_top">
+            账户设置 / 修改密码
+        </div>
+        <div class="content" id="update">
+            <div class="content_font">
+                修改密码
+            </div>
+            <div class="content_one">
+                <input type="text" placeholder="请输入手机号码" id="txtPhone" readonly>
+            </div>
+            <div class="content_two">
+                <input type="text" placeholder="请输入短信验证码" id="txtCode">
+                <input type="button" value="获取验证码">
+            </div>
+            <div class="content_one">
+                <input type="password" placeholder="请输入新密码" id="txtPassword" >
+            </div>
+            <div class="content_one">
+                <input type="password" placeholder="重复密码" id="txtPassword2" >
+            </div>
+            <div class="content_three">
+                <button id="saveBtn">
+                    <span>确认</span>
+                </button>
+            </div>
+        </div>
+        <!-- 脚部开始 -->
+        <footer>
+            <a>
+                Copyright 2017 apis.sh All Rights Resored | 陕ICP备15013925号-3
+            </a>
+        </footer>
+        <!-- 脚部结束 -->
+    </div>
+    <script type="text/javascript" src="./js/common.js"></script>
+    <script type="text/javascript" src="./js/updatepsw.js"></script>
+    <script type="text/javascript" src="./js/validate.js"></script>
+    
+</body>
+
+</html>
